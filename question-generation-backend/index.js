@@ -5,7 +5,7 @@ import { HumanMessage } from '@langchain/core/messages';
 import cors from "cors";
 // Initialize the Groq model
 const model = new ChatGroq({
-  apiKey: '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', // Replace with your actual Groq API key
+  apiKey: '', // Replace with your actual Groq API key
   model: 'meta-llama/llama-4-maverick-17b-128e-instruct',
 });
 
