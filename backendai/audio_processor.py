@@ -3,7 +3,7 @@ import whisper
 from groq import Groq
 import json
 # Groq API key
-GROQ_API_KEY = "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"  # Replace with your Groq API key
+GROQ_API_KEY = ""  # Replace with your Groq API key
 
 # Initialize Groq client
 groq_client = Groq(api_key=GROQ_API_KEY)
